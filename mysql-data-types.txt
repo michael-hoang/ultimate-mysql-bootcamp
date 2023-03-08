@@ -1,0 +1,9 @@
+INT
+  A whole number
+  max (signed) value of 2147483647
+  
+VARCHAR
+  A variable-length string
+  Can specify maximum number of characters
+    ex. varchar(100)
+    

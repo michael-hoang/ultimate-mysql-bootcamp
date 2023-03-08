@@ -1,0 +1,32 @@
+mysql -u root -p
+show databases;
+CREATE DATABASE <name>;
+DROP DATABASE <name>;
+USE <database name>;
+SELECT database(); (shows the current database)
+
+
+CREATE TABLE <tablename>
+  (
+     <column_name> <data_type>,
+     <column_name> <data_type>
+  );
+  
+CREATE TABLE cats
+  (
+     name VARCHAR(100),
+     age  INT
+  );
+ 
+ 
+SHOW TABLES;
+SHOW COLUMNS FROM <tablename>;
+DESC <tablename>; (describe table, same as above)
+DROP TABLE <tablename>;
+
+-- comment your SQL code using dash dash space.
+
+
+INSERT INTO <tablename> (<column1_name>, <column2_name>) VALUES (<value1>, <value2>);
+
+SELECT * FROM <tablename>; (view all rows in our table)
